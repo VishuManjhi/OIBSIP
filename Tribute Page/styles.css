@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(Dark\ backk.jpg);
+    color: #ffffff;
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1B263B;
+    background-image: url(Dark\ backk.jpg);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    color: #00A8E8;
+    font-size: 2.5em;
+}
+.subtitle {
+    color: #ff9d00;
+    font-style: italic;
+    font-size: 1.2em;
+    margin-left: 21em;
+}
+.shivaji {
+    text-align: center;
+    margin: 20px 0;
+}
+.shivaji img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 5px solid #f6880b;
+}
+.content {
+    margin: 20px 0;
+    padding: 10px;
+}
+h2 {
+    color: #ffa600;
+    border-bottom: 2px solid #00E1FF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #00A8E8;
+}
+footer p {
+    font-size: 0.9em;
+    color: #00E1FF;
+}
+span{
+    color: aquamarine;
+}

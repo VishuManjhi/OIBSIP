@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="register-container">
+        <h2>Register</h2>
+        <div class="input-group">
+            <label for="register-username">Username</label>
+            <input type="text" id="register-username" required>
+        </div>
+        <div class="input-group">
+            <label for="register-password">Password</label>
+            <input type="password" id="register-password" required>
+        </div>
+        <button onclick="register()">Register</button>
+        <p class="message" id="register-message"></p>
+        <p class="toggle-link"><a href="#" onclick="showLogin()">Already have an account? Login</a></p>
+    </div>
+
+    <div class="container" id="login-container" style="display:none;">
+        <h2>Login</h2>
+        <div class="input-group">
+            <label for="login-username">Username</label>
+            <input type="text" id="login-username" required>
+        </div>
+        <div class="input-group">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" required>
+        </div>
+        <button onclick="login()">Login</button>
+        <p class="message" id="login-message"></p>
+        <p class="toggle-link"><a href="#" onclick="showRegister()">Don't have an account? Register</a></p>
+    </div>
+
+    <div class="secured-content" id="secured-content" style="display:none;">
+        <h2>Welcome Premium Member</h2>
+        <p>Here Are Your Exclusive Perks, <span id="user-name"></span>!</p>
+        <button onclick="logout()">Logout</button>
+    </div>
+<script src="log.js"></script>
+</body>
+</html>
